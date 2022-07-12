@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+/* need to make responsive */
+.container img{
+  height:300px;
+  border-radius:200px;
+  border-color: #000000;
+  border-style: double;
+  box-shadow: inset;
+}
+
+.container1 img{
+  height:250px;
+  opacity: 0.8;
+  border-radius:50px;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container1 {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(moksh\ bg.png);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.897);
+  text-align: center;
+}
+
+.top-wrapper1 {
+  padding: 100px 0 100px 0;
+  background-image: url(moksh\ bg.png);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 60px;
+  color: #080808;
+}
+
+.top-wrapper1 h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  text-align: center;
+  color: #080808;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.top-wrapper1 p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.quick-links{
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 8px;
+}
+.quick-links a{
+  color: rgb(8, 0, 0);
+  font-size: larger;
+  transition: all 0.3s;
+  float: top;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #ae20fa;
+  margin-right: 10px;
+  border-color: #080808;
+  border-width: 100px;
+}
+
+
+
+
+.linkedin {
+  background-color: #002e92;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #008efb;
+  margin-right: 10px;
+}
+.github {
+  background-color: #000000;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 50px;
+  text-align: center;
+  border-color: #080808;
+  border-width: 20px;
+}
+.btn1 {
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 50px;
+  text-align: center;
+  border-color: #080808;
+  border-width: 20px;
+}
+
+.btn:hover {
+  opacity: 5;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(2, 0, 71, 0.815);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+footer p{
+  color: rgb(3, 157, 213);
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  color:rgb(255, 255, 255);
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(14, 2, 3, 0.719);
+}
+.quick-links a:hover{
+  background-color: rgba(255, 0, 34, 0.39);
+
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  transition: all 0.5s;
+  font-size: 20px;
+  padding: 20px 0;
+  display: none;
+  cursor: pointer;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #000000;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.heading p {
+  font-weight: normal;
+  color: hsla(0, 100%, 100%, 0.925);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+
+}
+.lesson-icon h3 {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #ffffffb0;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid rgb(128, 128, 121);
+  padding-bottom: 80px;
+  text-align: center;
+  background-color:grey;
+  background-image: url(moksh\ bottom\ bg.png);
+
+  
+}
+.message-wrapper h2{
+  color:rgb(0, 0, 0);
+  font-size: x-large;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #4f01affa;
+  cursor: pointer;
+  box-shadow: 0 7px #000000f3;
+  color:rgb(211, 211, 211);
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer h5 {
+  color: #c1c0c0;
+  font-size: 12px;
+  text-align:center;
+}
+footer h4 {
+  color: #080808;
+  font-size: 12px;
+  text-align:center;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
